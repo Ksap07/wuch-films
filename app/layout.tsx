@@ -9,7 +9,7 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-cor
 
 export const metadata: Metadata = {
   title: 'WUCH FILMS — Independent moving image',
-  description: 'WUCH FILMS is an independent home for considered moving image, founded by Batt Koch.',
+  description: 'WUCH FILMS is an independent film house founded by Ankit Wali and Siddarth Koul.',
   generator: 'WUCH FILMS',
   icons: {
     icon: [
