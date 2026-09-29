@@ -23,7 +23,7 @@ export const founders = [
     name: 'Ankit Wali',
     role: 'Writer / Director / Creative',
     bio: 'Ankit Wali is a writer, director and creative professional whose work spans theatre, dialect coaching and screen projects. He has worked in assistant directing and dialect coaching, and co-directed and co-wrote Batt Koch with Siddarth Koul.',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=85',
+    image: 'https://www.wuchfilms.in/ankit-wali.jpg',
     imdb: 'https://www.imdb.com/find/?q=Ankit%20Wali',
   },
   {
