@@ -21,7 +21,7 @@ export const films: Film[] = [
     director: 'Ankit Wali & Siddarth Koul',
     logline: 'A story rooted in voice, place and the things left unsaid.',
     description: 'Batt Koch is a WUCH FILMS story by Ankit Wali and Siddarth Koul, made with a close attention to language, landscape and the quiet tension between people.',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC04758.JPG-VYIvNdtYIaRHqRHu9CnZi7PR6Rgjdu.jpeg',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC04542.JPG-i0VAuWaJd5GuD1hrO5l7xaAlkwgg0S.jpeg',
     status: 'In the works',
   },
 ]
