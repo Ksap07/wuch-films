@@ -6,22 +6,6 @@ import { founders } from '@/lib/films'
 export default function Page() {
   return <main>
     <ArchiveIntro />
-    <section className="mx-auto max-w-[1440px] border-t border-border px-5 py-10 md:px-10">
-      <nav aria-label="Explore WUCH FILMS" className="grid divide-y divide-border border-b border-border md:grid-cols-5 md:divide-x md:divide-y-0">
-        {[
-          { href: '/films', label: 'Films' },
-          { href: '/founders', label: 'Founders' },
-          { href: '/journal', label: 'Journal' },
-          { href: '/contact', label: 'Contact' },
-          { href: '/archive', label: 'Archive ↗' },
-        ].map((item) => (
-          <Link key={item.href} href={item.href} className="group flex items-center justify-between py-5 text-[11px] uppercase tracking-[.2em] transition-colors hover:text-accent md:px-5 md:py-3 first:md:pl-0 last:md:pr-0">
-            <span>{item.label}</span>
-            <ArrowUpRight size={13} className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
-          </Link>
-        ))}
-      </nav>
-    </section>
     <section className="cinema-section cinema-section--note relative isolate mx-auto max-w-[1440px] overflow-hidden border-t border-border/40 px-5 py-24 md:px-10 md:py-40" style={{ backgroundImage: "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC04758.JPG-VYIvNdtYIaRHqRHu9CnZi7PR6Rgjdu.jpeg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
       <div className="absolute inset-0 -z-10 bg-black/60" />
       <div className="relative z-10 grid gap-12 text-white md:grid-cols-[1fr_2fr] md:gap-20">
