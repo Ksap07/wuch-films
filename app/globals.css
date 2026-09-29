@@ -15,7 +15,7 @@
   --font-sans: 'Geist', sans-serif;
   --font-serif: 'Cormorant Garamond', serif;
 }
-:root { --background: oklch(0.12 0.01 260); --foreground: oklch(0.94 0.02 90); --card: oklch(0.16 0.01 260); --card-foreground: oklch(0.94 0.02 90); --muted: oklch(0.18 0.01 260); --muted-foreground: oklch(0.63 0.02 90); --border: oklch(0.3 0.015 260); --primary: oklch(0.94 0.02 90); --primary-foreground: oklch(0.12 0.01 260); --accent: oklch(0.68 0.16 245); }
+:root { --background: oklch(0.12 0.01 260); --foreground: oklch(0.94 0.02 90); --card: oklch(0.16 0.01 260); --card-foreground: oklch(0.94 0.02 90); --muted: oklch(0.18 0.01 260); --muted-foreground: oklch(0.63 0.02 90); --border: oklch(0.3 0.015 260); --primary: oklch(0.94 0.02 90); --primary-foreground: oklch(0.12 0.01 260); --accent: oklch(0.68 0.11 85); }
 * { box-sizing: border-box; }
 html { background: var(--background); scroll-behavior: smooth; }
 body { @apply bg-background text-foreground font-sans; margin: 0; }
