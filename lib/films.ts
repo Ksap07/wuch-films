@@ -11,7 +11,20 @@ export type Film = {
   status?: string
 }
 
-export const films: Film[] = []
+export const films: Film[] = [
+  {
+    slug: 'batt-koch',
+    title: 'Batt Koch',
+    year: '2025',
+    format: 'Short film',
+    runtime: 'Coming soon',
+    director: 'Ankit Wali & Siddarth Koul',
+    logline: 'A story rooted in voice, place and the things left unsaid.',
+    description: 'Batt Koch is a WUCH FILMS story by Ankit Wali and Siddarth Koul, made with a close attention to language, landscape and the quiet tension between people.',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC04758.JPG-VYIvNdtYIaRHqRHu9CnZi7PR6Rgjdu.jpeg',
+    status: 'In the works',
+  },
+]
 
 export const getFilm = (slug: string) => films.find((film) => film.slug === slug)
 
